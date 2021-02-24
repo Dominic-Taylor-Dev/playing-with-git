@@ -2,7 +2,7 @@
 
 <h2> Purpose</h2>
 
-<p> To get used to the main git commands in conjunction with GitHub, and pushing/pulling content between GitHub and my local repos. There's really not much to see in terms of other file content. The main thing here is the explanation in this ReadMe of how I produced the simple text manipulation.
+<p> To get used to the main git commands in conjunction with GitHub, and pushing/pulling content between GitHub and my local repos. There's really not much to see in terms of other file content. The main thing here is the explanation in this ReadMe of how I produced the simple text manipulation, although you will see from commit history a bit of what I'm talking about.
 
 <h2> Getting set up locally</h2>
 
