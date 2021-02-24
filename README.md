@@ -44,7 +44,7 @@
 <h3>Connecting to GitHub with SSH</h3>
 <p>This is already well explained <a href = "https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh">here<a></p>
     
-<h3> Interacting with GitHub>
+<h3> Interacting with GitHub
 <p>
 <ul>
     
