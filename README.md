@@ -2,11 +2,19 @@
 
 <h2> Purpose</h2>
 
-<p> To get used to the main git commands in conjunction with GitHub, and pushing/pulling content between GitHub and my local repos. There's really not much to see in terms of other file content. The main thing here is the explanation in this ReadMe of how I produced the simple text manipulation, although you will see from commit history a bit of what I'm talking about.
+To get used to the main git commands in conjunction with GitHub, and pushing/pulling content between GitHub and my local repos. There's really not much to see in terms of other file content. The main thing here is the explanation in this ReadMe of how I produced the simple text file manipulation, although you will see from commit history a bit of what I'm talking about. What I did in the end was basically just:
+    <p>
+    <ul>
+    <li>Create a local repo</li>
+    <li>Create a GitHub repo</li>
+    <li>Link the two</li>
+    <li>Practise creating/deleting/updating files between the two</li>
+    </ul>
+    </p>
 
 <h2> Getting set up locally</h2>
 
-<p><i>Note: I use Linux (Ubuntu). Where " is used, this means you need to supply specific information only you know e.g. email addresses, file names</i></p>
+<i>Note: I use Linux (Ubuntu). Where " is used, this means you need to supply specific information only you know e.g. email addresses, file names</i>
 
 <ul>
     <li><i>Make sure git is installed on system.</i> This can be checked with <code>$ git --version</code> </li>
@@ -23,7 +31,7 @@
     </li>
 </ul>
 
-<p> Once you've got this far, you're basically set up. There are a few other commands you'll want to know, though:</p>
+Once you've got this far, you're basically set up. There are a few other commands you'll want to know, though:
 
 <ul>
     <li><code>git add "FileName"</code> which adds files to the staging area (meaning they're being tracked but not yet committed)</li>
@@ -42,18 +50,19 @@
 <h2> Pushing your local git to GitHub</h2>
 
 <h3>Connecting to GitHub with SSH</h3>
-<p>This is already well explained <a href = "https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh">here<a></p>
+
+This is already well explained <a href = "https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh">here<a>.
     
 <h3> Interacting with GitHub</h3>
-<p><ul>
+<ul>
     
 <li>Firstly, you'll want to set up a new repo in GitHub (manually, by logging in and clicking on "New Repository". I called it "playing-with-git" (this repo!).</li>
  
 <li>You're then ready to connect to the remote repo on your local computer. Do that with <code>$ git remote add origin "YourRepoSSHAddress"</code> (the word 'origin' is setting the name of the remote repo in your local repo - you could use something different and it would still work). The repo address should be the same as your SSH clone address. At the moment that's under a dropdown for me called 'Code' on the main page of the repo in GitHub.</li>
 
-<li>Once conntected, you can push (transfer) your local repo to Github (it'll go to the address you set in the last step) using <code>$ git push -u origin master</code></li>
+<li>Once connected, you can push (transfer) your local repo to Github (it'll go to the address you set in the last step) using <code>$ git push -u origin master</code></li>
 
-</ul></p>
+</ul>
 
 <h2> Pulling and fetching code from GitHub</h2>
 
