@@ -55,6 +55,8 @@
 
 </ul></p>
 
-<h2> Pulling code from GitHub</h2>
+<h2> Pulling and fetching code from GitHub</h2>
 
 If there's anyone else working on your repo, or there are pushes to GitHub that do not come from your local computer - maybe you are working on a different computer yourself - you'll get your files out of sync. For this reason, you'll want to be able to fetch data from GitHub as well as push to it. This is called 'pull' and can be done (within the local repo on the terminal) with <code>$ git pull origin master</code> (assuming you called the remote repo 'origin').
+
+If you just want to know where the remote repo is up to, you can use <code>$ git fetch</code> to download the metadata and then <code>$ git status</code> to see how your local repo relates. If there's a divergence, you can of course pull the updated files. If you check <code>$ git status</code> again after pulling, it should tell you that your branch is up to date.
