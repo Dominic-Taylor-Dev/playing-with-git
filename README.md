@@ -45,8 +45,7 @@
 <p>This is already well explained <a href = "https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh">here<a></p>
     
 <h3> Interacting with GitHub
-<p>
-<ul>
+<p><ul>
     
 <li>Firstly, you'll want to set up a new repo in GitHub (manually, by logging in and clicking on "New Repository". I called it "playing-with-git" (this repo!).</li>
  
@@ -54,8 +53,7 @@
 
 <li>Once conntected, you can push (transfer) your local repo to Github (it'll go to the address you set in the last step) using <code>$ git push -u origin master</code></li>
 
-</ul>
-</p>
+</ul></p>
 
 <h2> Pulling code from GitHub</h2>
 
