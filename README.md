@@ -59,3 +59,4 @@
 
 <h2> Pulling code from GitHub</h2>
 
+If there's anyone else working on your repo, or there are pushes to GitHub that do not come from your local computer, you'll get out of sync. For this reason, you'll want to be able to fetch data from GitHub as well as push to it. This is called 'pull' and can be done (within the local repo on the terminal) with <code>$ git pull origin master</code> (assuming you called the remote repo 'origin').
