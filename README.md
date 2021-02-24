@@ -50,7 +50,7 @@
     
 <li>Firstly, you'll want to set up a new repo in GitHub (manually, by logging in and clicking on "New Repository". I called it "playing-with-git" (this repo!).</li>
  
-<li>You're then ready to connect to the remote repo on your local computer. Do that with <code>$ git remote add origin <YOUR_REPOSITORY_ADDRESS_HERE></code> (the word 'origin' is setting the name of the remote repo in your local repo - you could use something different and it would still work). The repo address should be the same as your SSH clone address. At the moment that's under a dropdown for me called 'Code' on the main page of the repo in GitHub.</li>
+<li>You're then ready to connect to the remote repo on your local computer. Do that with <code>$ git remote add origin "YourRepoSSHAddress"</code> (the word 'origin' is setting the name of the remote repo in your local repo - you could use something different and it would still work). The repo address should be the same as your SSH clone address. At the moment that's under a dropdown for me called 'Code' on the main page of the repo in GitHub.</li>
 
 <li>Once conntected, you can push (transfer) your local repo to Github (it'll go to the address you set in the last step) using <code>$ git push -u origin master</code></li>
 
